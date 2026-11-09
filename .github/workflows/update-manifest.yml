@@ -1,0 +1,41 @@
+name: Update manifest
+
+# A plugin's release workflow sends plugin-released once its download is verified.
+# The Run workflow button does the same job by hand.
+on:
+  repository_dispatch:
+    types: [plugin-released]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: manifest
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Test the builder
+        run: node scripts/build-manifest.test.js
+
+      - name: Build the manifest
+        env:
+          EXPECT_PLUGIN: ${{ github.event.client_payload.plugin }}
+          EXPECT_VERSION: ${{ github.event.client_payload.version }}
+        run: node scripts/build-manifest.js
+
+      - name: Publish if it changed
+        run: |
+          if git diff --quiet -- manifest.json; then
+            echo "Nothing new."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manifest.json
+          git commit -m "Update manifest"
+          git push
