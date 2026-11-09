@@ -37,7 +37,7 @@ These are not available from this repository yet.
 | [CleanStream](https://github.com/AHouseOfBards/CleanStream) | Version and bitrate selection for each viewer's connection, with freeze prevention. |
 | [FieldGuide](https://github.com/AHouseOfBards/FieldGuide) | Personalized recommendation libraries for each user. |
 | GameTent | Game streaming from a PC running Jellyfin to any supported client. |
-| [Trailhead](https://github.com/AHouseOfBards/LanternLight) | A desktop app that sets up remote access to a Jellyfin server. |
+| [Trailhead](https://github.com/AHouseOfBards/Trailhead) | A desktop app that sets up remote access to a Jellyfin server. |
 
 ## Support
 
