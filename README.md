@@ -22,7 +22,7 @@ Requires Jellyfin 10.11 or later.
 
 | | Plugin | |
 | --- | --- | --- |
-| <img src="images/bonfire.png" width="56" alt=""> | **[Bonfire](https://github.com/AHouseOfBards/Bonfire-JellyProfiles)**<br>Profiles for Jellyfin. One account holds several people, each with their own watch history, library access and parental controls. Works with Jellyfin 10.11 and 12.0. | Available |
+| <img src="images/bonfire.png" width="56" alt=""> | **[Bonfire](https://github.com/AHouseOfBards/Bonfire)**<br>Profiles for Jellyfin. One account holds several people, each with their own watch history, library access and parental controls. Works with Jellyfin 10.11 and 12.0. | Available |
 | <img src="images/cleanstream.png" width="56" alt=""> | **[CleanStream](https://github.com/AHouseOfBards/CleanStream)**<br>Playback for Jellyfin. Starts fast, plays the original file when the connection allows it, and changes quality smoothly when it doesn't. | Planned |
 | <img src="images/fieldguide.png" width="56" alt=""> | **[FieldGuide](https://github.com/AHouseOfBards/FieldGuide)**<br>Recommendations for Jellyfin. Picks for each person that change as they watch, in every Jellyfin app. | Planned |
 | <img src="images/gametent.png" width="56" alt=""> | **[GameTent](https://github.com/AHouseOfBards/GameTent)**<br>Game streaming for Jellyfin. Play the games on your server from Jellyfin apps. | Planned |
@@ -32,7 +32,7 @@ Planned plugins aren't in the repository yet. Each one appears in the catalog on
 stable release.
 
 This repository offers stable versions only. Bonfire betas are
-[published separately](https://github.com/AHouseOfBards/Bonfire-JellyProfiles/blob/main/docs/beta-channel.md).
+[published separately](https://github.com/AHouseOfBards/Bonfire/blob/main/docs/beta-channel.md).
 
 ## Support
 
