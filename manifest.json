@@ -9,12 +9,12 @@
     "imageUrl": "https://raw.githubusercontent.com/AHouseOfBards/Bonfire/main/images/icon.jpg",
     "versions": [
       {
-        "version": "2.1.0.0",
-        "changelog": "**Fixed**\n\n- TV sign-in screens, the device list, themes and the profile button. (#42, #46, #48)\n- Security fixes. Updating is recommended.\n\n**Changed**\n\n- Profiles show on TV sign-in screens on a new install, and duplicate devices merge on their own.\n- The log says more, to help with bug reports.\n\n**Added**\n\n- A Moonfin theme, and more settings for apps with Bonfire built in.\n",
+        "version": "2.1.1.0",
+        "changelog": "**Fixed**\n\n- Videos would not play in Jellyfin Media Player after picking a profile. (#49)\n",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/AHouseOfBards/Bonfire/releases/download/v2.1.0/Jellyfin.Profiles.zip",
-        "checksum": "e083e5baacb842271b2fd63f30aabb7f",
-        "timestamp": "2026-11-19T20:38:49Z"
+        "sourceUrl": "https://github.com/AHouseOfBards/Bonfire/releases/download/v2.1.1/Jellyfin.Profiles.zip",
+        "checksum": "90c49d622a79a25539db6c8a24ed7991",
+        "timestamp": "2026-11-20T04:31:01Z"
       }
     ]
   }
